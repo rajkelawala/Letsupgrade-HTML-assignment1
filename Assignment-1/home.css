@@ -1,0 +1,59 @@
+body {
+    margin: 3px;
+    padding: 0;
+    background-color: rgba(240, 240, 240, 0.945);
+    background-image: url(logo1.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+  }
+  .menu{
+      background-color: rgba(50, 235, 245, 0.653);
+  }
+  li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 30px;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    background-color: #6681e2;
+    color: white;
+  }
+
+  #watch{
+     text-shadow: 2px 2px white;
+     font-size: x-large;
+  }
+  .container{
+      position: relative;
+      top: 0px;
+      background-repeat:no-repeat;
+      background-size:cover;
+      background-attachment:fixed;
+      height: 250px;
+      padding: 200px 500px;
+      opacity: 0.9;
+  }
+  .container h1{
+    margin: 5%;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+  }
+  .container button{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 2px solid #ac7f7f;
+    cursor: pointer;
+    list-style: none;
+  }
+  .container button :hover{
+    background-color: black;
+  }
+  .section{
+    height: 600px;
+    width: 100%;
+  }
